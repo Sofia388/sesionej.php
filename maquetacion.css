@@ -1,0 +1,188 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+  background-color: #FFFFFF;
+  text-align: center;
+}
+
+#contenedor{
+	width: 1200px;
+	height: 1000px;
+	margin: 0.5em auto;
+	padding: 0.5em;
+}
+
+#header{
+	height: 20%;
+	width: 100%;
+	background: url(https://cdn130.picsart.com/283382977022211.png?type=webp&to=min&r=640);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	font-family: "Lucida Calligraphy", Informal Roman, Monotype Corsiva; 
+	font-size: 55px;
+	display: center;
+}
+
+h1{
+	text-align: center;
+	line-height: 220px;
+}
+
+#nav{
+	height: 3%;
+	background-color: #FF69B4;
+	margin: 1em;
+	background: url("https://us.123rf.com/450wm/trimailova/trimailova1712/trimailova171200035/92069843-detalles-de-fondo-de-textura-dorada-con-degradado-y-la-pintura-oro-de-oro-de-fondo-de-arte-de-pantal.jpg?ver=6");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+#menu ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: center;
+}
+
+#menu ul li{
+	display: inline-block;
+}
+
+#menu ul li a{
+	text-decoration: none;
+	font-size: 25px;
+	color: black;
+	padding: 25px;
+}
+
+#menu ul li a:hover{
+	background-color: #B8860B
+}
+
+#contenido{
+	height: 48%;
+}
+
+#footer{
+	height: 10%;
+	background-color: #FFC0CB;
+	margin: 1em;
+	background: linear-gradient(to right, plum, pink);
+}
+
+.fin p a{
+	text-decoration: none;
+}
+
+p{
+	font-size: 50px;
+	margin-bottom: 1em;
+	text-align: center;
+}
+
+#section{
+	height: 98%;
+	width: 64%;
+	background-color: #FFB6C1;
+	float: left;
+	margin: 1em;
+}
+
+#aside{
+	height: 98%;
+	width: 30%;
+	background-color: #EE82EE;
+	background-size: 100% 100%;
+	float: right;
+	margin: 1em;
+}
+
+#fundadora{
+	float: center;
+}
+
+video{
+	margin-top: 1em;
+	width: 100%;
+}
+
+ul, ol{
+	list-style: none;
+}
+
+.nav1 li a{
+ background-color: #EE82EE;
+ color:#000000;
+ text-decoration: none;
+ padding: 2px 5px;
+ display: block;
+ margin-left: 2em;
+}
+
+.nav1 li a:hover {
+	background-color: #DDA0DD;
+}
+
+.nav1 > li{
+	float: left;
+}
+
+.nav1 li ul{
+	display: none;
+	position:absolute;
+}
+
+.nav1 li:hover > ul{
+	display: block;
+}
+
+h2{
+	color: #8B008B;
+	margin-top: 1em;
+	text-align: center;
+	margin-bottom: 0.5em;
+	font-family: "Colonna MT";
+	font-size: 40px;
+}
+
+.slider {
+	width: 100%;
+	overflow: hidden;
+	height: 100%;
+}
+
+.slider ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	animation: cambio 20s infinite alternate linear;
+}
+
+.slider li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider img {
+	width: 100%;
+	height: 37%;
+}
+
+@keyframes cambio {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+

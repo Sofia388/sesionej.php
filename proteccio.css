@@ -1,0 +1,39 @@
+*{
+	background-color: #FFF0F5;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.contenedor{
+	width: 40%;
+	max-width: 600px;
+	height: 600px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+p{
+	font-size: 25px;
+	line-height: 50px;
+	padding: 18px;
+	margin: auto;
+
+}
+
+#uno{
+	font-size: 45px;
+	color:#800080;
+	font-family: "Bell MT";
+}
+
+img{
+	width: 750px;
+	height: 600px;
+	float: right;
+	margin-right: 20px;
+}
+
+#footer{
+	background-color: #DDA0DD;
+}
